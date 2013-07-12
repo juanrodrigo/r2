@@ -1,0 +1,27 @@
+clase de git
+
+todo de git
+
+Una vez instalado git, debes configurar:
+
+git config --global user.name "fredd-for"
+git config --global user.email "fredd_xxxxxxx@hotmail.com"
+
+genera tu key public:
+
+ssh-keygen
+
+leyendo tu llave para copiarla al GITHUB:
+
+cat ~/.ssh/id_rsa.pub
+
+Arranca tu proyecto:
+git init
+
+touch readme
+
+git add readme
+git commit -m "tu primer commit"
+git push origin master
+
+
